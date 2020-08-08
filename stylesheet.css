@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  img {
+    width: 30px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .counting_widget {
+    border: solid black;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .output {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .number {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30pt;
+  }
